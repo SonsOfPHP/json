@@ -1,0 +1,37 @@
+{
+    "name": "sonsofphp/json",
+    "type": "library",
+    "description": "Wrapper around native json php functions",
+    "keywords": ["json"],
+    "homepage": "https://github.com/SonsOfPHP/json",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Estes",
+            "email": "joshua@sonsofphp.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/SonsOfPHP/sonsofphp/issues",
+        "forum": "https://github.com/orgs/SonsOfPHP/discussions"
+    },
+    "autoload": {
+        "psr-4": {
+            "SonsOfPHP\\Component\\Json\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    }
+}
